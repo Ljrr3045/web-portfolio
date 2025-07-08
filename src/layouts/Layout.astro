@@ -6,8 +6,10 @@ interface Props {
   description?: string;
 }
 
-const { title = "Rishikesh S - Portfolio", description = "My Portfolio" } =
-  Astro.props;
+const {
+  title = "Luis R. - Portfolio",
+  description = "Systems Engineer specializing in full-stack development with expertise in TypeScript, React, Node.js and modern Web2/Web3 technologies. Passionate about creating scalable solutions and delivering exceptional user experiences.",
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -15,7 +17,7 @@ const { title = "Rishikesh S - Portfolio", description = "My Portfolio" } =
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
     <title>{title}</title>

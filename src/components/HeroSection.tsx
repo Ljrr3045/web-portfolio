@@ -1,5 +1,5 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin } from "lucide-react";
+import { Mail, Github, MapPin, Linkedin, Send } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -40,15 +40,14 @@ export default function HeroSection() {
               className="text-4xl font-bold mb-2"
               variants={childVariants}
             >
-              {personalInfo.name}{" "}
-              <span className="inline-block animate-pulse">✨</span>
+              {personalInfo.name}
             </motion.h1>
 
             <motion.p
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Systems Engineer 👨‍💻
             </motion.p>
 
             <motion.div
@@ -97,6 +96,18 @@ export default function HeroSection() {
                 <Linkedin className="h-4 w-4 mr-2" />
                 🔗 LinkedIn
               </motion.a>
+
+              <motion.a
+                href={personalInfo.telegram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                variants={childVariants}
+                whileHover={{ scale: 1.05, color: "#4b5563" }}
+              >
+                <Send className="h-4 w-4 mr-2" />
+                💬 Telegram
+              </motion.a>
             </motion.div>
           </div>
 
@@ -109,7 +120,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="/profile.jpg"
+                src="/profile.png"
                 alt="Profile"
                 className="w-48 md:w-60 rounded-full relative ring-2 ring-purple-500/50"
                 style={{ objectFit: "cover" }}
@@ -122,15 +133,18 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+              🚀 Systems Engineer specializing in Full-Stack/FrontEnd development with 
+              expertise in TypeScript, React, Node.js and modern Web2/Web3 
+              technologies. Passionate about creating scalable solutions and 
+              delivering exceptional user experiences. I love building
+              products that users enjoy - from pixel-perfect UIs to optimized
+              backend performance. What excites me most is collaborating with
+              teams who care about both technical excellence and real-world
+              impact. I've led features from concept to launch while mentoring
+              teammates along the way. Throughout my career, I've been
+              characterized not just by writing code, but by my ability to fill
+              product-level gaps and convert requirements into efficient,
+              scalable software solutions.
             </p>
           </div>
         </MotionWrapper>

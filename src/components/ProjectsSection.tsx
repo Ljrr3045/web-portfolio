@@ -31,19 +31,19 @@ export default function ProjectsSection() {
                     {project.title}
                   </CardTitle>
                 </CardHeader>
-                <CardContent className="flex-grow">
-                  <ul className="list-disc ml-4 space-y-1 text-sm group-hover:space-y-2 transition-all duration-300">
+                <CardContent className="flex-grow !p-6">
+                  <ul className="list-disc space-y-1 text-sm group-hover:space-y-2 transition-all duration-300">
                     {project.description.map((desc, i) => (
-                      <motion.li
+                      <motion.div
                         key={i}
-                        className="text-muted-foreground"
+                        className="text-muted-foreground text-center"
                         initial={{ opacity: 0, x: -10 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.1 }}
                         viewport={{ once: true }}
                       >
                         {desc}
-                      </motion.li>
+                      </motion.div>
                     ))}
                   </ul>
                 </CardContent>

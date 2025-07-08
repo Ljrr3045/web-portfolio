@@ -1,186 +1,55 @@
-# Modern Portfolio Template
+# Personal Development Portfolio
 
-A sleek, responsive portfolio website built with **Astro**, **React**, and **Tailwind CSS**, featuring modern animations and stunning glassmorphism effects.
+This is my personal web portfolio repository, where I showcase my professional experience, projects, and skills as a developer.
 
-![Portfolio Screenshot](https://github.com/user-attachments/assets/4f2466f1-1ebe-4cbe-857c-40eccd63c384)
+## 📋 Description
 
-## ✨ Features
+This personal web portfolio is built with modern technologies like **Astro**, **React**, and **Tailwind CSS**, featuring an elegant design with glassmorphism effects and smooth animations. The site is optimized to provide an exceptional user experience across all devices.
 
-- **Modern Design** – Clean, professional layout with elegant glassmorphism
-- **Animations** – Smooth transitions and interactive UI via Framer Motion
-- **Dark/Light Mode** – Automatic theme switching with system preference detection
+## 🎯 Portfolio Sections
+
+### Hero Section
+The main section that presents my personal information, location, and links to professional networks like GitHub and LinkedIn.
+
+### Work Experience
+Chronological detail of my professional career, including companies, positions, periods, and outstanding achievements in each role.
+
+### Education
+Academic information with institutions, degrees obtained, study periods, and relevant academic achievements.
+
+### Projects
+Portfolio of developed projects, with detailed descriptions and repository links.
+
+### Technical Skills
+Categorization of my technical skills organized by areas:
+- Programming languages
+- Frontend development
+- Backend development
+- Blockchain development
+- Databases
+- Tools and technologies
+
+## 🚀 Features
+
+- **Modern Design** – Clean and professional interface with glassmorphism effects
+- **Smooth Animations** – Fluid transitions and interactive UI using Framer Motion
+- **Dark/Light Mode** – Automatic theme switching based on system preferences
 - **Fully Responsive** – Optimized for mobile, tablet, and desktop
-- **Blazing Fast** – Powered by Astro for superior performance
-- **Modular Structure** – Built for easy customization and scalability
-- **SEO Friendly** – Structured content and meta tags for better visibility
+- **Optimized Performance** – Built with Astro for maximum speed
+- **SEO Friendly** – Content structure and meta tags for better visibility
 
-## 🚀 Demo
+## ⚙️ Technologies Used
 
-👉 [Live Demo](https://rishilol.vercel.app/)
+- [Astro](https://astro.build/) - Web framework for static sites
+- [React](https://reactjs.org/) - Library for user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Utility CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [Lucide Icons](https://lucide.dev/) - Modern icons
 
-## 🛠 Getting Started
+## 🙏 Original Author Credits
 
-### Prerequisites
+This portfolio is based on the original template created by **Rishikesh S.**
 
-- Node.js (v18+ recommended)
-- npm / yarn / bun
+- **Original Project:** [Modern Portfolio Template](https://github.com/rishikesh2003/my-portfolio)
 
-### Installation
-
-```bash
-git clone https://github.com/yourusername/my-portfolio.git
-cd my-portfolio
-
-# Install dependencies
-npm install
-# or
-yarn install
-# or
-bun install
-
-# Start development server
-npm run dev
-# or
-yarn dev
-# or
-bun dev
-```
-
-Visit `http://localhost:4321` in your browser to see it in action.
-
-## 🧩 Customizing the Portfolio
-
-All your content lives inside `src/lib/data.ts`. Update the following to make it yours:
-
-### 1. Personal Info
-
-```ts
-export const personalInfo = {
-  name: "Your Name",
-  location: "Your Location",
-  email: "your.email@example.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://www.linkedin.com/in/yourusername/",
-};
-```
-
-### 2. Work Experience
-
-```ts
-export const workExperience = [
-  {
-    company: "Company Name",
-    location: "Location",
-    position: "Your Position",
-    period: "Start Date - End Date",
-    achievements: [
-      "Achievement 1",
-      "Achievement 2",
-    ],
-  },
-];
-```
-
-### 3. Education
-
-```ts
-export const education = [
-  {
-    institution: "University Name",
-    location: "Location",
-    degree: "Your Degree",
-    period: "Start Date - End Date",
-    achievements: [
-      "Achievement 1",
-      "Achievement 2",
-    ],
-  },
-];
-```
-
-### 4. Skills
-
-```ts
-export const skills = {
-  programmingLanguages: ["TypeScript", "Python"],
-  frontendDevelopment: ["React", "Next.js"],
-  // and more...
-};
-```
-
-### 5. Projects
-
-```ts
-export const projects = [
-  {
-    title: "Project Name",
-    github: "https://github.com/yourusername/project",
-    description: [
-      "What it does",
-      "Technologies used",
-    ],
-  },
-];
-```
-
-### 6. Awards
-
-```ts
-export const awards = [
-  {
-    name: "Award Name",
-    issuer: "Issuer",
-    date: "Date",
-    type: "Type",
-    position: "Position",
-  },
-];
-```
-
-## 📦 Build for Production
-
-```bash
-npm run build
-# or
-yarn build
-# or
-bun run build
-```
-
-To preview the production build locally:
-
-```bash
-npm run preview
-# or
-yarn preview
-```
-
-## 📤 Deployment
-
-Easily deploy to platforms like **Vercel**, **Netlify**, **GitHub Pages**, or any static host of your choice.
-
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## ©️ Copyright
-
-© 2025 **Rishikesh S.** All rights reserved.
-
-You’re welcome to use this template for your own portfolio — just update `data.ts` and tweak the design as needed. Please keep attribution to the original author.
-
----
-
-## 🌟 Like it?
-
-If you found this helpful or inspiring, **please consider leaving a star** ⭐ on the repo — it helps others discover it too!
-
----
-
-## 🙏 Acknowledgments
-
-- [Astro](https://astro.build/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Lucide Icons](https://lucide.dev/)
+This portfolio is a customized fork of the original template. Attribution to the original author is maintained as respect for their work.
