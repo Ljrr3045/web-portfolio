@@ -134,7 +134,7 @@ export default function HeroSection() {
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
               🚀 Systems Engineer specializing in Full-Stack/FrontEnd development with 
-              expertise in TypeScript, React, Node.js and modern Web2/Web3 
+              expertise in TypeScript, React, Node.js, AI, Web2/Web3 and modern 
               technologies. Passionate about creating scalable solutions and 
               delivering exceptional user experiences. I love building
               products that users enjoy - from pixel-perfect UIs to optimized
