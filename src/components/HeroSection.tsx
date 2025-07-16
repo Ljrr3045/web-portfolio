@@ -47,22 +47,13 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Systems Engineer 👨‍💻
+              Systems Engineer | Senior Frontend Developer | Senior Full Stack Developer | Technical Lead 👨‍💻
             </motion.p>
 
             <motion.div
               className="flex flex-col gap-2 items-center md:items-start"
               variants={containerVariants}
             >
-              <motion.div
-                className="flex items-center text-sm text-muted-foreground"
-                variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
-              >
-                <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
-              </motion.div>
-
               <motion.a
                 href={`mailto:${personalInfo.email}`}
                 className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -108,6 +99,15 @@ export default function HeroSection() {
                 <Send className="h-4 w-4 mr-2" />
                 💬 Telegram
               </motion.a>
+
+              <motion.div
+                className="flex items-center text-sm text-muted-foreground"
+                variants={childVariants}
+                whileHover={{ scale: 1.05, color: "#4b5563" }}
+              >
+                <MapPin className="h-4 w-4 mr-2" />
+                📍 {personalInfo.location}
+              </motion.div>
             </motion.div>
           </div>
 
@@ -133,18 +133,11 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-blue-500/20 dark:border-blue-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></span>
-              🚀 Systems Engineer specializing in Full-Stack/FrontEnd development with 
-              expertise in TypeScript, React, Node.js, AI, Web2/Web3 and modern 
-              technologies. Passionate about creating scalable solutions and 
-              delivering exceptional user experiences. I love building
-              products that users enjoy - from pixel-perfect UIs to optimized
-              backend performance. What excites me most is collaborating with
-              teams who care about both technical excellence and real-world
-              impact. I've led features from concept to launch while mentoring
-              teammates along the way. Throughout my career, I've been
-              characterized not just by writing code, but by my ability to fill
-              product-level gaps and convert requirements into efficient,
-              scalable software solutions.
+              🚀 Senior Frontend and Full Stack Developer with 4+ years transforming ideas into scalable products. Led development from zero to 8K+ users and optimized systems achieving 40% → 90% conversion improvements.
+              <br />
+              💻 Expert in React, Next.js, TypeScript, Node.js, Web3, and AI integration. Proven track record managing teams and delivering solutions that drive both exceptional user experiences and business growth.
+              <br />
+              ⚡ I bridge the gap between product vision and technical execution—from pixel-perfect UIs to optimized architectures. Ready to build extraordinary products in Web3, AI, or cutting-edge tech.
             </p>
           </div>
         </MotionWrapper>
