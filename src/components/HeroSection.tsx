@@ -47,7 +47,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Systems Engineer | Senior Frontend Developer | Senior Full Stack Developer | Technical Lead 👨‍💻
+              Systems Engineer | Senior Frontend & Full Stack Developer 👨‍💻
             </motion.p>
 
             <motion.div
