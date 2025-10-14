@@ -3,16 +3,31 @@ export const personalInfo = {
   location: "Remote • EST/CET timezone",
   email: "ljrr3045@gmail.com",
   github: "https://github.com/Ljrr3045",
-  linkedin: "https://www.linkedin.com/in/luis-rivero-full-stack-blockchain-ai-dev/",
+  linkedin:
+    "https://www.linkedin.com/in/luis-rivero-full-stack-blockchain-ai-dev/",
   telegram: "https://t.me/LJ_R99",
 };
 
 export const workExperience = [
   {
+    company: "Archivista",
+    location: "San Juan, Puerto Rico - Remote",
+    position: "Senior Full Stack Developer",
+    period: "Oct 2025 - Present",
+    achievements: [
+      "Building next-generation digital legacy infrastructure enabling individuals and businesses to preserve and protect their most valuable moments through certified, tamper-proof onchain records.",
+      "- Developing and enhancing existing product frontends using Next.js, TypeScript, and modern web technologies.",
+      "- Contributing to the planning, design, and implementation of new product initiatives in collaboration with the core team.",
+      "- Collaborating with backend engineers on NestJS services, ensuring API reliability and seamless integration.",
+      "- Improving user experience and developer workflows through component optimizations and performance-focused refactors.",
+      "- Participating in technical decision-making processes shaping the evolution of Archivista’s product ecosystem.",
+    ],
+  },
+  {
     company: "Rather Labs",
-    location: "Delaware, United States - Remote",
+    location: "Buenos Aires, Argentina - Remote",
     position: "Senior Frontend Developer",
-    period: "Jan 2025 - Present",
+    period: "Jan 2025 - Oct 2025",
     achievements: [
       "Leading frontend development at premier blockchain technology consultancy specializing in enterprise Web3 solutions for world-class clients.",
       "- Architecting React.js applications for DeFi protocols handling 7-figures daily volume.",
@@ -104,12 +119,7 @@ export const education = [
 ];
 
 export const skills = {
-  programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
-    "Solidity",
-    "HTML/CSS",
-  ],
+  programmingLanguages: ["TypeScript", "JavaScript", "Solidity", "HTML/CSS"],
   frontendDevelopment: [
     "React.js",
     "Next.js",
@@ -120,8 +130,20 @@ export const skills = {
     "React Native",
     "Expo",
   ],
-  backendDevelopment: ["Node.js", "Express.js", "Nest.js", "Serverless Framework"],
-  blockchainDevelopment: ["Hardhat", "Ethers.js", "Web3.js", "Viem", "Wagmi", "Solana SDK"],
+  backendDevelopment: [
+    "Node.js",
+    "Express.js",
+    "Nest.js",
+    "Serverless Framework",
+  ],
+  blockchainDevelopment: [
+    "Hardhat",
+    "Ethers.js",
+    "Web3.js",
+    "Viem",
+    "Wagmi",
+    "Solana SDK",
+  ],
   databaseAndStorage: ["MongoDB", "DynamoDB", "PostgreSQL"],
   cloudAndDevOps: ["Vercel", "Netlify", "Render", "AWS"],
   toolsAndServices: [
