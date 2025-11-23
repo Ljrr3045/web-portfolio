@@ -12,7 +12,7 @@ export const workExperience = [
   {
     company: "Archivista",
     location: "San Juan, Puerto Rico - Remote",
-    position: "Senior Full Stack Developer",
+    position: "Senior Frontend Developer",
     period: "Oct 2025 - Present",
     achievements: [
       "Building next-generation digital legacy infrastructure enabling individuals and businesses to preserve and protect their most valuable moments through certified, tamper-proof onchain records.",
