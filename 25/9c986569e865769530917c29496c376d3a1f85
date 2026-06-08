@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "259c986569e865769530917c29496c376d3a1f85",
+  "prompts": {},
+  "humans": {
+    "h_96a125dd239871": {
+      "author": "Ljrr3045 <ljrr3045@gmail.com>"
+    }
+  }
+}
