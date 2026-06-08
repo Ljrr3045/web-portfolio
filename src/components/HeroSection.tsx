@@ -47,7 +47,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Senior Full Stack Engineer & AI/Web3 Product Developer 👨‍💻
+              Senior Full Stack Engineer | AI & Web3 Product Developer 👨‍💻
             </motion.p>
 
             <motion.div
@@ -142,7 +142,7 @@ export default function HeroSection() {
                 with <strong className="text-foreground">5+ years</strong> of experience
                 building products from zero to{" "}
                 <strong className="text-foreground">8K+ active users</strong> and driving
-                over <strong className="text-blue-400">$6M in capital raised</strong>.
+                over <strong className="text-foreground">$6M in capital raised</strong>.
                 Track record of engineering{" "}
                 <strong className="text-foreground">high-conversion dApps</strong> 💰,
                 leading Agile teams, and architecting scalable cloud infrastructure on{" "}
@@ -151,7 +151,7 @@ export default function HeroSection() {
                 <strong className="text-foreground">agentic AI workflows</strong> 🤖 with
                 Cursor, Claude Code, and custom MCP servers — compressing traditional
                 software lifecycles by{" "}
-                <strong className="text-foreground">3×</strong> without sacrificing code
+                <strong className="text-foreground">2.5×</strong> without sacrificing code
                 quality or architectural rigor.
               </p>
             </div>
