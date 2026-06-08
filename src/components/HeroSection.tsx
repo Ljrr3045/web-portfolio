@@ -47,7 +47,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Systems Engineer | Senior Frontend & Full Stack Developer 👨‍💻
+              Senior Full Stack Engineer | AI & Web3 Product Developer | React, Node.js, Solidity | Cursor & Claude Code Expert 👨‍💻
             </motion.p>
 
             <motion.div
@@ -131,14 +131,68 @@ export default function HeroSection() {
 
         <MotionWrapper>
           <div className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-blue-500/20 dark:border-blue-500/10 shadow-sm">
-            <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
+            <div className="pl-4 py-2 relative space-y-6 text-muted-foreground leading-relaxed text-sm md:text-base">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></span>
-              🚀 Senior Frontend and Full Stack Developer with 4+ years transforming ideas into scalable products. Led development from zero to 8K+ users and optimized systems achieving 40% → 90% conversion improvements.
-              <br />
-              💻 Expert in React, Next.js, TypeScript, Node.js, Web3, and AI integration. Proven track record managing teams and delivering solutions that drive both exceptional user experiences and business growth.
-              <br />
-              ⚡ I bridge the gap between product vision and technical execution—from pixel-perfect UIs to optimized architectures. Ready to build extraordinary products in Web3, AI, or cutting-edge tech.
-            </p>
+              
+              <p className="text-foreground font-medium text-base md:text-lg">
+                Full Stack Software Engineer specializing in Web3 protocols and AI product development. Over 5 years of experience building applications from 0 to 8K+ active users and optimizing Web3 platforms to drive over $6M in funding.
+              </p>
+
+              <div>
+                <h3 className="text-foreground font-semibold flex items-center gap-2 mb-2">
+                  🚀 MEASURED IMPACT:
+                </h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>
+                    <span className="text-foreground font-medium">Web3 Growth Engine:</span> Engineered an ICO dApp utilizing Solidity, Ethers.js, and Wagmi; optimized frontend performance (reducing LCP and INP), boosting conversion rate from 40% to 90%, contributing directly to a $6M capital raise.
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">Product Scale:</span> Spearheaded the full-stack architecture of a scalable B2B/B2C application from scratch, scaling it seamlessly to over 8K+ active users on AWS and Serverless infrastructure.
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">Team Leadership:</span> Guided Agile/Scrum teams of 5-6 developers, driving clean code standards, microservices migration, and robust automated testing (Jest, Cypress) to reduce production bugs.
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-foreground font-semibold flex items-center gap-2 mb-2">
+                  💻 TECHNICAL STACK:
+                </h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>
+                    <span className="text-foreground font-medium">Frontend:</span> React, Next.js, TypeScript, React Native, Expo, Redux, Responsive UX design.
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">Backend & DB:</span> Node.js, Nest.js, Serverless, PostgreSQL, MongoDB, RESTful API design.
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">Web3:</span> Solidity, Smart Contracts, Hardhat, Ethers.js, Wagmi, dApp Development.
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">AI Systems:</span> Retrieval-Augmented Generation (RAG), LLM integration, Prompt Engineering.
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-foreground font-semibold flex items-center gap-2 mb-2">
+                  🤖 AI-AUGMENTED SOFTWARE ENGINEERING:
+                </h3>
+                <p>
+                  I build software at the speed of thought. By orchestrating advanced agentic coding workflows, I utilize Cursor, Claude Code, and OpenCode in tandem with custom Model Context Protocol (MCP) servers. I write and maintain Git-versioned agent instructions (CLAUDE.md, .cursorrules) and custom agent skills (.ai/skills) to compress traditional software delivery lifecycles by 3x. I don't just generate code; I leverage AI agents under strict architectural boundaries, verifying every change through structured CI/CD pipelines.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-foreground font-semibold flex items-center gap-2 mb-2">
+                  📈 TARGET ROLES:
+                </h3>
+                <p>
+                  Looking for Senior Frontend, Full Stack, or AI/Web3 Software Engineer roles in fast-paced startups where I can scale products and implement next-generation AI workflows.
+                </p>
+              </div>
+            </div>
           </div>
         </MotionWrapper>
       </div>
