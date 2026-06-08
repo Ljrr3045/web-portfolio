@@ -104,11 +104,6 @@ export const workExperience = [
 
 export const education = [
   {
-    institution: "EYSS, LTD",
-    location: "Caracas, Venezuela",
-    degree: "Blockchain Development Specialist",
-  },
-  {
     institution: "Universidad de Oriente",
     location: "Maturin, Venezuela",
     degree: "Bachelor of Engineering in Systems Engineering",
