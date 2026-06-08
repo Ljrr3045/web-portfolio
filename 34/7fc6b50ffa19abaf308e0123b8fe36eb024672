@@ -1,0 +1,20 @@
+src/lib/data.ts
+  h_96a125dd239871 15,18-23,32-37,46-50,59-64,73-76,85-88,97-100,128,134,142,156-158
+src/components/Footer.tsx
+  h_96a125dd239871 19
+src/components/HeroSection.tsx
+  h_96a125dd239871 50,134,136-195
+src/layouts/Layout.astro
+  h_96a125dd239871 10-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "347fc6b50ffa19abaf308e0123b8fe36eb024672",
+  "prompts": {},
+  "humans": {
+    "h_96a125dd239871": {
+      "author": "Ljrr3045 <ljrr3045@gmail.com>"
+    }
+  }
+}
